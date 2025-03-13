@@ -1,0 +1,22 @@
+Collecting diffusers
+  Using cached diffusers-0.32.2-py3-none-any.whl.metadata (18 kB)
+Requirement already satisfied: importlib-metadata in /usr/lib/python3/dist-packages (from diffusers) (4.6.4)
+Requirement already satisfied: filelock in /usr/local/lib/python3.10/dist-packages (from diffusers) (3.9.0)
+Requirement already satisfied: huggingface-hub>=0.23.2 in /usr/local/lib/python3.10/dist-packages (from diffusers) (0.29.3)
+Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from diffusers) (1.24.1)
+Requirement already satisfied: regex!=2019.12.17 in /usr/local/lib/python3.10/dist-packages (from diffusers) (2024.11.6)
+Requirement already satisfied: requests in /usr/local/lib/python3.10/dist-packages (from diffusers) (2.31.0)
+Requirement already satisfied: safetensors>=0.3.1 in /usr/local/lib/python3.10/dist-packages (from diffusers) (0.5.3)
+Requirement already satisfied: Pillow in /usr/local/lib/python3.10/dist-packages (from diffusers) (9.3.0)
+Requirement already satisfied: fsspec>=2023.5.0 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.23.2->diffusers) (2025.3.0)
+Requirement already satisfied: packaging>=20.9 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.23.2->diffusers) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.23.2->diffusers) (6.0.1)
+Requirement already satisfied: tqdm>=4.42.1 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.23.2->diffusers) (4.67.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.10/dist-packages (from huggingface-hub>=0.23.2->diffusers) (4.12.2)
+Requirement already satisfied: charset-normalizer<4,>=2 in /usr/local/lib/python3.10/dist-packages (from requests->diffusers) (2.1.1)
+Requirement already satisfied: idna<4,>=2.5 in /usr/local/lib/python3.10/dist-packages (from requests->diffusers) (3.4)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /usr/local/lib/python3.10/dist-packages (from requests->diffusers) (1.26.13)
+Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.10/dist-packages (from requests->diffusers) (2022.12.7)
+Using cached diffusers-0.32.2-py3-none-any.whl (3.2 MB)
+Installing collected packages: diffusers
+Successfully installed diffusers-0.32.2

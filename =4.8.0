@@ -1,0 +1,10 @@
+Requirement already satisfied: typing-extensions in /usr/local/lib/python3.10/dist-packages (4.4.0)
+Collecting typing-extensions
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Installing collected packages: typing-extensions
+  Attempting uninstall: typing-extensions
+    Found existing installation: typing_extensions 4.4.0
+    Uninstalling typing_extensions-4.4.0:
+      Successfully uninstalled typing_extensions-4.4.0
+Successfully installed typing-extensions-4.12.2

@@ -1,0 +1,5 @@
+Collecting typing_extensions
+  Downloading typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Downloading typing_extensions-4.12.2-py3-none-any.whl (37 kB)
+Installing collected packages: typing_extensions
+Successfully installed typing_extensions-4.12.2
