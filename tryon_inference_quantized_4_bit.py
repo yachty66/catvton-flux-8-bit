@@ -29,7 +29,7 @@ def run_inference(
         
         # Load quantized transformer from HuggingFace Hub
         transformer_4bit = FluxTransformer2DModel.from_pretrained(
-            "./quantized_catvton_flux",  # Local path to your quantized model
+            "yachty66/4-bit-quantized-catvton-flux",  # Changed from local path to HF repo
             quantization_config=quant_config,
             torch_dtype=torch.bfloat16,
             device_map="balanced"
